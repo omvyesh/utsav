@@ -45,6 +45,7 @@ body {
     text-wrap: wrap;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .logo {
@@ -175,7 +176,7 @@ body {
 }
 
 .comments {
-    height: 10rem;
+    height: 20rem;
     width: 90%;
     background: linear-gradient(to right, rgba(255, 200, 120, 1), rgba(255, 150, 150, 1));
     color: #ffffff;
@@ -250,8 +251,9 @@ footer {
 }
 
 footer .logo img {
-    max-width: 100%;
+    
     height: auto;
+    width: 30rem;
 }
 
 footer .address {
@@ -287,6 +289,7 @@ footer .address {
 }
 .mycomments{
     display:none;
+    padding: 1rem;
 }
 .fade{
     animation-name : fade;
