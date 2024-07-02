@@ -30,25 +30,7 @@ function showComments() {
     comments[commentIndex - 1].style.display = "block";
     setTimeout(showComments, 3000); // Change image every 3 seconds
 }
-const audioBtn = document.querySelector('.audio-btn');
-const stopBtn = document.querySelector('#stop-btn');
-audioBtn.addEventListener('click' , function() {
-    var audio = document.getElementById('audio');
-    audio.play().catch(function(error){
-        console.log('Playback failed due to: ',error);
 
-    })
-    audioBtn.classList.toggle('hide');
-    stopBtn.classList.toggle('hide');
-    ;
-})
-
-stopBtn.addEventListener('click', ()=>{
-    var audio = document.getElementById('audio');
-    audio.pause();
-    audioBtn.classList.toggle('hide');
-    stopBtn.classList.toggle('hide');
-})
 
 
 
@@ -76,4 +58,29 @@ stopBtn.addEventListener('click', ()=>{
         }
 
         showImage(currentIndex);
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+            
+            cards.forEach(card => {
+                card.addEventListener('mouseover', () => {
+                    card.classList.add('hover');
+                });
+                
+                card.addEventListener('mouseout', () => {
+                    card.classList.remove('hover');
+                });
+            });
+        });
+        
+      
+
+
+      const courseBtn = document.getElementById('courses-btn');
+const courses = document.querySelector('.courses');
+courseBtn.addEventListener('click' , function() {
     
+    courses.classList.toggle('hide');
+    courseBtn.classList.toggle('show');
+ 
+  
+})
