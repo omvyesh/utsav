@@ -78,7 +78,7 @@ body {
     font-size: 2em;
     width: 9rem;
     border: 2px solid rgba(0, 85, 128, 0.489);
-    background-color: rgba(49, 255, 53, 0.542);
+    background-color: rgba(54, 241, 57, 0.446);
     padding: 0.5rem;
     cursor: pointer;
     border-radius: 1rem;
@@ -109,13 +109,14 @@ body {
     gap:3rem;
     border: 2px solid rgb(97, 3, 248);
     padding: 3px;
-    
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(83, 44, 212, 0.378); 
 }
 .connect-link a{
     color: rgb(249, 245, 243);
     text-decoration: none;
     gap: 1em;
-    align-items:center
+    align-items:center;
 }
 .connect-link:hover {
     transform: translateZ(-10px); /* Move up */
@@ -395,8 +396,13 @@ p {
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
+
+.pics-gallery{
+    padding:1rem;
+    background: linear-gradient(to right, rgba(135, 206, 250, 1), rgba(70, 130, 180, 1));
+    color: #2e2e2e; /* A dark gray color for the text */
+   height: fit-content;
+
 }
 
 .images {
@@ -407,6 +413,7 @@ body {
     gap: 10px;
     margin-top: 2rem;
     padding-bottom: 2rem;
+    
 }
 
 .images img {
@@ -417,7 +424,7 @@ body {
     border: 2px solid white;
 
 }
-.gallery img:hover {
+.images img:hover {
     transform: translateZ(-10px); /* Move up */
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.605); /* Add shadow for depth */
 }
