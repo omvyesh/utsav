@@ -170,7 +170,7 @@ body {
 }
 .map-title{
     font-weight: 600;
-    color: brown;
+    color: rgb(0, 245, 73);
     
 }
 
@@ -327,7 +327,7 @@ footer .address {
 }
 nav {
     background-color: #5fc9f3; /* Blue background */
-    padding: 15px 0px; /* Padding for top and bottom, smaller padding on the sides */
+    padding: 15px 3px; /* Padding for top and bottom, smaller padding on the sides */
     display: flex;
     justify-content: space-between; /* Space items evenly */
      /* Center items vertically */
@@ -342,7 +342,7 @@ nav a {
   border-width: 1px;
     transition: background-color 0.3s ease; /* Smooth transition */
     font-size: 1.2rem;
-    box-shadow: 2px 2px 2px rgb(83, 101, 254)
+    box-shadow: 2px 2px 8px rgb(83, 101, 254)
     
 }
 
@@ -361,7 +361,10 @@ p {
     line-height: 1.6; /* Line height for paragraphs */
 }
 
-
+.founder-description{
+    padding-left: 2px;
+    padding-right: 2px;
+}
 .connect-links2 {
     display: flex;
     flex-wrap: wrap;
