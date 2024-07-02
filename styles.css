@@ -135,7 +135,7 @@ body {
     margin-right: auto;
     margin-top: 1rem;
     margin-bottom: 3rem;
-    width: 95%;
+    width: 100%;
     padding: 3rem 0;
     align-items: center;
 }
@@ -167,6 +167,11 @@ body {
 
     width:100%;
     border-radius: 5%;
+}
+.map-title{
+    font-weight: 600;
+    color: brown;
+    
 }
 
 .feedback {
@@ -321,7 +326,7 @@ footer .address {
     margin-left: 3rem;
 }
 nav {
-    background-color: #4e8ea8; /* Blue background */
+    background-color: #5fc9f3; /* Blue background */
     padding: 15px 0px; /* Padding for top and bottom, smaller padding on the sides */
     display: flex;
     justify-content: space-between; /* Space items evenly */
@@ -337,7 +342,7 @@ nav a {
   border-width: 1px;
     transition: background-color 0.3s ease; /* Smooth transition */
     font-size: 1.2rem;
-    box-shadow: 2px 2px 2px rgba(2, 26, 243, 0.605)
+    box-shadow: 2px 2px 2px rgb(83, 101, 254)
     
 }
 
@@ -430,11 +435,15 @@ p {
 }
 .courses {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  
+    padding-bottom: 3rem;
+    padding-top: 1rem;
     background: linear-gradient(to right, #4e54c8, #8f94fb);
     color: #333;
     text-align: center;
+    margin-bottom: 20px;
+    
+   animation: fade 1s ;
     
 }
 .display{
@@ -450,6 +459,7 @@ p {
     font-size: 2.5em;
     color: #fff;
     text-align: center;
+    
 }
 
 .courses .container {
